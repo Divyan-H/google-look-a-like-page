@@ -1,0 +1,122 @@
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+  margin-bottom: 0px;
+}
+a {
+  color: #70757a;
+  text-decoration: none;
+}
+
+.top {
+  position: absolute;
+  top: 8px;
+  right: 4%;
+  word-spacing: 15px;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#apps {
+  position: relative;
+  right: 7px;
+  top: 4px;
+  height: 25px;
+  width: 25px;
+}
+#guest {
+  position: absolute;
+  height: 35px;
+  width: 35px;
+}
+.center {
+  text-align: center;
+}
+.middle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+#google {
+  margin-top: 6%;
+  margin-bottom: 30px;
+}
+#searchbar {
+  position: absolute;
+  top: 31%;
+  left: 31%;
+  height: 33px;
+  width: 34%;
+  border: 1px solid #d5d4d4;
+  outline: none;
+  border: none;
+}
+#borders {
+  border: 2px solid #d5d4d4;
+  padding: 10px;
+  width: 43%;
+  height: 26px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 999px;
+  box-shadow: 0 2px 10px -7px #000;
+}
+.material-symbols-outlined {
+  display: flex;
+  position: absolute;
+  top: 32%;
+  left: 29%;
+  color: #777;
+  align-items: center;
+}
+#icons {
+  position: absolute;
+  left: 65%;
+  top: 31%;
+}
+.button {
+  height: 35px;
+  min-width: 10%;
+  padding: 10px;
+  margin-left: 10px;
+  color: #3c4043;
+  background-color: #f8f9fa;
+  border: 1px solid white;
+}
+.googleofferedin {
+  font-size: 14px;
+  word-spacing: 5px;
+}
+.translate {
+  color: blue;
+}
+.footer {
+  display: block;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 13vh;
+  background-color: #ececec;
+  word-spacing: 20px;
+  font-size: 14px;
+  color: #70757a;
+  padding-bottom: 10px;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+  flex-wrap: wrap;
+}
+#india {
+  position: absolute;
+  left: 30px;
+}
+#border {
+  margin-top: 3%;
+  border-bottom: 1px solid rgb(206, 205, 205);
+}
